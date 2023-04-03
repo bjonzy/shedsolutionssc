@@ -1,0 +1,105 @@
+.pricing-wrapper {
+    @include page-wrapper;
+
+    .page-content {
+        .table-wrapper {
+            $table-columns: repeat(7, 1fr);
+
+            * {
+                align-items: center;
+            }
+
+            .table-header {
+                color: $primary-color;
+            }
+
+            .table-columns {
+                display: grid;
+                grid-template-columns: $table-columns;
+                font-weight: bold;
+                color: $secondary-color;
+            }
+
+            .table-rows {
+                gap: 10px;
+
+                .table-row {
+                    display: grid;
+                    grid-template-columns: $table-columns;
+                    border-bottom: 1px solid $secondary-color;
+                    border-radius: 6px;
+                }
+            }
+        }
+
+        .carousel-wrapper {
+            gap: 15px;
+
+            .carousel-top {
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+
+                .carousel-nav {
+                    width: fit-content;
+                    font-size: 2.5rem;
+                    color: $secondary-color;
+                    cursor: pointer;
+                    transition: .15s ease-in-out;
+
+                    &:hover {
+                        color: $primary-color;
+                    }
+                }
+
+                .carousel-image {
+                    width: 93vh;
+                    overflow: hidden;
+
+                    .carousel-image-locker {
+                        flex-direction: row;
+                        transition: .15s ease-in-out;
+
+                        .locker-image {
+                            background-color: black;
+                            width: 93vh;
+
+                            img {
+                                height: 70vh;
+                                width: 93vh;
+                                object-fit: cover;
+                                object-position: center;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .carousel-bottom {
+                .carousel-selection {
+                    flex-direction: row;
+                    justify-content: center;
+                    gap: 15px;
+
+                    .carousel-selection-option, 
+                    .carousel-selection-option-active {
+                        width: fit-content;
+                        font-size: .65rem;
+                        cursor: pointer;
+                        transition: .15s ease-in-out;
+                    }
+
+                    .carousel-selection-option {
+                        color: $secondary-color;
+                    }
+
+                    .carousel-selection-option-active {
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+}

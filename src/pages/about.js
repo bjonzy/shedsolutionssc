@@ -16,7 +16,6 @@ export default function About(props) {
                     <div className="content-block">
                         <h2>Located in Beautiful South Corolina</h2>
 
-                        <span>203 S D St.</span>
                         <span>Easley, SC, 29640</span>
                         <span><strong>(864)-565-1425</strong></span>
 

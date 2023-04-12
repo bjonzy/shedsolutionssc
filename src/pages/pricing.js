@@ -143,8 +143,7 @@ export default function Pricing(props) {
                         <span>Rake/Gable Overhang: $200 (Per Gable End)</span>
                         <span>P/T Ramps: $150-$350</span>
                         <span>Steel “man” Door: $250 no glass, $325 w/glass</span>
-                        <br />
-                        <span>NEW!!: Aluminum ramp systems: $250 – $490 depending on length, width, and weight capacity.</span>
+                        <p>NEW!!: Aluminum ramp systems: $250 – $490 depending on length, width, and weight capacity.</p>
                     </div>
 
                     <div className="content-block">

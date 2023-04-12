@@ -30,7 +30,7 @@ export default function Home() {
                 <p>Shed Solutions will work with you to design and build exactly what you want. We build everything from tiny chicken coops to sheds, barns and small garages. If you can dream it, we can build it! Just pick the size, style, shingle color, windows, doors, etc. and we will get to building it.</p>
                 <h3>(864)-565-1425</h3>
                 <h1>Built On Site or FREE Delivery</h1>
-                <p>203 S D St. Easley, SC, 29640</p>
+                <p>Easley, SC, 29640</p>
               </div>
             </div>
         </div>

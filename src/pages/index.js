@@ -19,7 +19,7 @@ export default function Home() {
   }
 
   return (
-    <div className="page-wrapper home-wrapper">
+    <div className="home-wrapper">
       <div className="page-content">
         <div className="content-block-with-image">
           <Image src={shed1} alt="shed" priority />

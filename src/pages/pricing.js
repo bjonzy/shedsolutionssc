@@ -22,7 +22,7 @@ export default function Pricing(props) {
         const generateTableRows = () => (
             pricingData[table].map((data, index) => (
                 <div key={`table-${table}-row-${index}`} className="table-row">
-                    <div className="table-row-content">${data.size}</div>
+                    <div className="table-row-content">{data.size}</div>
                     <div className="table-row-content">${data.smartsideTotal}</div>
                     <div className="table-row-content">${data.smartside60Month}</div>
                     <div className="table-row-content">${data.smartside48Month}</div>
@@ -33,24 +33,68 @@ export default function Pricing(props) {
             ))
         )
 
+        const generateTableRowsMobile = () => (
+            pricingData[table].map((data, index) => (
+                <div key={`table-${table}-row-${index}`} className="table-row">
+                    <div className="table-row-header"><h3>{data.size}</h3></div>
+                    <div className="table-row-content">
+                        <div className="table-column">Smartside</div>
+                        <div>${data.smartsideTotal}</div>
+                    </div>
+                    <div className="table-row-content">
+                        <div className="table-column">60 Month</div>
+                        <div>${data.smartside60Month}</div>
+                    </div>
+                    <div className="table-row-content">
+                        <div className="table-column">48 Month</div>
+                        <div>${data.smartside48Month}</div>
+                    </div>
+                    <div className="table-row-content">
+                        <div className="table-column">Vinyl</div>
+                        <div>${data.vinylTotal}</div>
+                    </div>
+                    <div className="table-row-content">
+                        <div className="table-column">60 Month</div>
+                        <div>${data.vinyl60Month}</div>
+                    </div>
+                    <div className="table-row-content">
+                        <div className="table-column">48 Month</div>
+                        <div>${data.vinyl48Month}</div>
+                    </div>
+                </div>
+            ))
+        )
+
         return (
-            <div className="table-wrapper" id={table}>
-                <div className="table-header">
-                    <h2>{header}</h2>
+            <div className="table-switch">
+                <div className="table-wrapper" id={table}>
+                    <div className="table-header">
+                        <h2>{header}</h2>
+                    </div>
+
+                    <div className="table-columns">
+                        <div className="table-column">Size</div>
+                        <div className="table-column">Smartside</div>
+                        <div className="table-column">60 Month</div>
+                        <div className="table-column">48 Month</div>
+                        <div className="table-column">Vinyl</div>
+                        <div className="table-column">60 Month</div>
+                        <div className="table-column">48 Month</div>
+                    </div>
+
+                    <div className="table-rows">
+                        {generateTableRows()}
+                    </div>
                 </div>
 
-                <div className="table-columns">
-                    <div className="table-column">Size</div>
-                    <div className="table-column">Smartside</div>
-                    <div className="table-column">60 Month</div>
-                    <div className="table-column">48 Month</div>
-                    <div className="table-column">Vinyl</div>
-                    <div className="table-column">60 Month</div>
-                    <div className="table-column">48 Month</div>
-                </div>
+                <div className="table-wrapper-mobile">
+                    <div className="table-header">
+                        <h2>{header}</h2>
+                    </div>
 
-                <div className="table-rows">
-                    {generateTableRows()}
+                    <div className="table-rows">
+                        {generateTableRowsMobile()}
+                    </div>
                 </div>
             </div>
         )
@@ -80,35 +124,70 @@ export default function Pricing(props) {
         )
         
         return (
-            <div className="carousel-wrapper">
-                <div className="carousel-top">
-                    <div 
-                        className="carousel-nav" 
-                        onClick={() => setImageIndex(imageIndex > 0 ? imageIndex - 1 : images.length - 1)}
-                    >
-                        <FontAwesomeIcon icon={faAngleLeft} />
-                    </div>
-
-                    <div className="carousel-image">
+            <div className="carousel-switch">
+                <div className="carousel-wrapper">
+                    <div className="carousel-top">
                         <div 
-                            className="carousel-image-locker"
-                            style={{ transform: `translateX(calc(-93vh * ${imageIndex}))` }}
+                            className="carousel-nav" 
+                            onClick={() => setImageIndex(imageIndex > 0 ? imageIndex - 1 : images.length - 1)}
                         >
-                            {generateCarouselImageLockerImages()}
+                            <FontAwesomeIcon icon={faAngleLeft} />
+                        </div>
+
+                        <div className="carousel-image">
+                            <div 
+                                className="carousel-image-locker"
+                                style={{ transform: `translateX(calc(-93vh * ${imageIndex}))` }}
+                            >
+                                {generateCarouselImageLockerImages()}
+                            </div>
+                        </div>
+
+                        <div 
+                            className="carousel-nav" 
+                            onClick={() => setImageIndex(imageIndex < images.length - 1 ? imageIndex + 1 : 0)}
+                        >
+                            <FontAwesomeIcon icon={faAngleRight} />
                         </div>
                     </div>
 
-                    <div 
-                        className="carousel-nav" 
-                        onClick={() => setImageIndex(imageIndex < images.length - 1 ? imageIndex + 1 : 0)}
-                    >
-                        <FontAwesomeIcon icon={faAngleRight} />
+                    <div className="carousel-bottom">
+                        <div className="carousel-selection">
+                            {generateCarouselSelectionOptions()}
+                        </div>
                     </div>
                 </div>
 
-                <div className="carousel-bottom">
-                    <div className="carousel-selection">
-                        {generateCarouselSelectionOptions()}
+                <div className="carousel-wrapper-mobile">
+                    <div className="carousel-top">
+                        <div className="carousel-image">
+                            <div 
+                                className="carousel-image-locker"
+                                style={{ transform: `translateX(calc(-71vw * ${imageIndex}))` }}
+                            >
+                                {generateCarouselImageLockerImages()}
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="carousel-bottom">
+                        <div 
+                            className="carousel-nav" 
+                            onClick={() => setImageIndex(imageIndex > 0 ? imageIndex - 1 : images.length - 1)}
+                        >
+                            <FontAwesomeIcon icon={faAngleLeft} />
+                        </div>
+
+                        <div className="carousel-selection">
+                            {generateCarouselSelectionOptions()}
+                        </div>
+
+                        <div 
+                            className="carousel-nav" 
+                            onClick={() => setImageIndex(imageIndex < images.length - 1 ? imageIndex + 1 : 0)}
+                        >
+                            <FontAwesomeIcon icon={faAngleRight} />
+                        </div>
                     </div>
                 </div>
             </div>

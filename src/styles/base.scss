@@ -40,11 +40,12 @@ button {
 }
 
 .app-wrapper {
+    width: 100vw;
     min-height: 100vh;
     justify-content: space-between;
 }
 
-.navbar-wrapper {
+.navbar-wrapper, .navbar-wrapper-mobile {
     height: 60px;
     flex-direction: row;
     justify-content: center;
@@ -83,7 +84,7 @@ button {
     }
 }
 
-.page-wrapper {
+.page-wrapper, .home-wrapper {
     flex: 1;
     margin-top: 60px;
 }
@@ -92,4 +93,11 @@ button {
     align-items: center;
     padding: 20px;
     border-top: 1px solid $secondary-color;
+}
+
+.navbar-wrapper-mobile, 
+.footer-wrapper-mobile, 
+.table-wrapper-mobile,
+.carousel-wrapper-mobile {
+    display: none;
 }

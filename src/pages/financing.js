@@ -14,6 +14,12 @@ export default function Financing(props) {
                     </div>
 
                     <div className="content-block">
+                        <h2>Rent to Own</h2>
+
+                        <p>At Shed Solutions, we not only offer the best storage solutions for your needs, we offer the lowest financing plans to suit your budget! Our Rent-to-Own process is easy and affordable, with no credit check, and only a small down payment. With the lowest monthly payment around, anyone can own a Shed Solutions shed.</p>
+                    </div>
+
+                    <div className="content-block">
                         <h2>Regardless of Past Credit History</h2>
 
                         <p>We are willing to extend credit to anyone regardless of past credit history. Our financing is “in house” with no credit checks, employment verification, rent or mortgage verification, or any of the other hassles associated with borrowing money.</p>
@@ -31,12 +37,6 @@ export default function Financing(props) {
                         </ol>
 
                         <p>Once a shed is ordered, we immediately schedule it to be built. Upon completion or delivery of the building to your property, we will collect your down payment and schedule your first monthly payment to be due thirty days from delivery.</p>
-                    </div>
-
-                    <div className="content-block">
-                        <h2>Better than Rent to Own</h2>
-
-                        <p>Our financing is structured to be fair and affordable, unlike expensive rent to own! Our financing costs are a fraction of that.  We guarantee you the best financing program of any shed company in the state.</p>
                         <br />
                     </div>
                 </div>

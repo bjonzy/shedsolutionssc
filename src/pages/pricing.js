@@ -216,13 +216,13 @@ export default function Pricing(props) {
 
                     <div className="content-block">
                         <h2>Options</h2>
-                        <span>Windows: $125 ea</span>
+                        <span>Windows: $100 ea</span>
                         <span>Extra Barn Door: $200 ea</span>
                         <span>Canister/Garage Door: Per Spec.</span>
-                        <span>Rake/Gable Overhang: $200 (Per Gable End)</span>
-                        <span>P/T Ramps: $150-$350</span>
-                        <span>Steel “man” Door: $250 no glass, $325 w/glass</span>
-                        <p>NEW!!: Aluminum ramp systems: $250 – $490 depending on length, width, and weight capacity.</p>
+                        <span>Rake/Gable Overhang: $250 (Per Gable End)</span>
+                        <span>P/T Ramps: Per Spec.</span>
+                        <span>Steel “man” Door: $450 no glass, $525 w/glass</span>
+                        <p>NEW!!: Aluminum ramp systems: $580</p>
                     </div>
 
                     <div className="content-block">

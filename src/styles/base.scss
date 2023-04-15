@@ -40,7 +40,6 @@ button {
 }
 
 .app-wrapper {
-    width: 100vw;
     min-height: 100vh;
     justify-content: space-between;
 }
@@ -81,6 +80,22 @@ button {
                 color: $primary-color;
             }
         }
+    }
+}
+
+.navbar-wrapper-mobile {
+    flex-direction: column;
+    gap: 5px;
+
+    img {
+        position: relative;
+        height: 30px;
+        width: 100px;
+    }
+
+    .links-wrapper {
+        gap: 10px;
+        font-size: .8rem;
     }
 }
 

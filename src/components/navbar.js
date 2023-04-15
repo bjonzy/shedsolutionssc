@@ -16,7 +16,7 @@ export default function Navbar(props) {
                     <Link href="/pricing">Sizing&nbsp;&&nbsp;Pricing</Link>
                     <Link href="/financing">Financing</Link>
                     <Link href="/about">About&nbsp;Us</Link>
-                    <a href="#">Facebook</a>
+                    <a target="blank" href="https://www.facebook.com/profile.php?id=100091247108647&mibextid=LQQJ4d">Facebook</a>
                 </div>
             </div>
 
@@ -28,7 +28,7 @@ export default function Navbar(props) {
                     <Link href="/pricing">Sizing&nbsp;&&nbsp;Pricing</Link>
                     <Link href="/financing">Financing</Link>
                     <Link href="/about">About&nbsp;Us</Link>
-                    <a href="#">Facebook</a>
+                    <a target="blank" href="https://www.facebook.com/profile.php?id=100091247108647&mibextid=LQQJ4d">Facebook</a>
                 </div>
             </div>
         </div>

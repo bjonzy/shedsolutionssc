@@ -1,4 +1,5 @@
 import '@/styles/main.scss'
+import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -12,6 +13,10 @@ config.autoAddCss = false
 export default function App({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <title>Shed Solutions SC</title>
+        <meta name="keywords" content="Sheds, Shed, Barns, Barn, Garages, Garage, Construction, On-site, Delivery, Custom, Financing" />
+      </Head>
       <style jsx global>{`
         html {
           font-family: ${inter.style.fontFamily};

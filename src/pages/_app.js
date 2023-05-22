@@ -15,6 +15,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Shed Solutions SC</title>
+        <meta name="description" content="Shed Solutions" />
         <meta name="keywords" content="Sheds, Shed, Barns, Barn, Garages, Garage, Construction, On-site, Delivery, Custom, Financing" />
       </Head>
       <style jsx global>{`

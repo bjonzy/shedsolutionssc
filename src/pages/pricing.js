@@ -195,65 +195,72 @@ export default function Pricing(props) {
     }
 
     return (
-        <div className='page-wrapper pricing-wrapper'>
-            <div className="page-background">
-                <div className="page-content animate__animated animate__fadeIn animate__fast">
-                    <div className="content-block">
-                        <h1>Sizing & Pricing</h1>
+        <>
+            <Head>
+                <title>Shed Solutions SC</title>
+                <meta name="description" content="Shed Solutions" />
+                <meta name="keywords" content="Sheds, Shed, Barns, Barn, Garages, Garage, Construction, On-site, Delivery, Custom, Financing" />
+            </Head>
+            <div className='page-wrapper pricing-wrapper'>
+                <div className="page-background">
+                    <div className="page-content animate__animated animate__fadeIn animate__fast">
+                        <div className="content-block">
+                            <h1>Sizing & Pricing</h1>
 
-                        <hr />
+                            <hr />
 
-                        <p>Please check our price listing below then read up on the construction, custom pricing and specials below the pricing table. Please Call Us <strong>(864)-565-1425</strong> for a quote on custom garage or shed that has other features not listed below in the standard construction details. We accept payments in cash, check, credit/debit cards, or money order.</p>
-                    </div>
+                            <p>Please check our price listing below then read up on the construction, custom pricing and specials below the pricing table. Please Call Us <strong>(864)-565-1425</strong> for a quote on custom garage or shed that has other features not listed below in the standard construction details. We accept payments in cash, check, credit/debit cards, or money order.</p>
+                        </div>
 
-                    {generateTable("aframe", "A-Frame")}
+                        {generateTable("aframe", "A-Frame")}
 
-                    {generateCarousel("aframe", [aframe1, aframe2, aframe3, aframe4, aframe5, aframe6])}
+                        {generateCarousel("aframe", [aframe1, aframe2, aframe3, aframe4, aframe5, aframe6])}
 
-                    {generateTable("barn", "Barn")}
+                        {generateTable("barn", "Barn")}
 
-                    {generateCarousel("barn", [barn1, barn2, barn3])}
+                        {generateCarousel("barn", [barn1, barn2, barn3])}
 
-                    <div className="content-block">
-                        <h2>Options</h2>
-                        <span>Windows: $100 ea</span>
-                        <span>Extra Barn Door: $200 ea</span>
-                        <span>Canister/Garage Door: Per Spec.</span>
-                        <span>Rake/Gable Overhang: $250 (Per Gable End)</span>
-                        <span>P/T Ramps: Per Spec.</span>
-                        <span>Steel “man” Door: $450 no glass, $525 w/glass</span>
-                        <p>NEW!!: Aluminum ramp systems: $580</p>
-                    </div>
+                        <div className="content-block">
+                            <h2>Options</h2>
+                            <span>Windows: $100 ea</span>
+                            <span>Extra Barn Door: $200 ea</span>
+                            <span>Canister/Garage Door: Per Spec.</span>
+                            <span>Rake/Gable Overhang: $250 (Per Gable End)</span>
+                            <span>P/T Ramps: Per Spec.</span>
+                            <span>Steel “man” Door: $450 no glass, $525 w/glass</span>
+                            <p>NEW!!: Aluminum ramp systems: $580</p>
+                        </div>
 
-                    <div className="content-block">
-                        <h2>What Is Included</h2>
+                        <div className="content-block">
+                            <h2>What Is Included</h2>
 
-                        <p>All sheds are built on 6X6 pressure treated skids, one double barn door of any width, 5/12 “A” style roof, 30 year three tab asphalt or architectural shingles. Gambrel roofs, salt box roofs are also available. Please note that we build on site for locations where access is difficult or for sheds over 12 X 20 in size. On site construction where no power is available will incur an additional $75.00 charge for generator usage.</p>
-                    </div>
+                            <p>All sheds are built on 6X6 pressure treated skids, one double barn door of any width, 5/12 “A” style roof, 30 year three tab asphalt or architectural shingles. Gambrel roofs, salt box roofs are also available. Please note that we build on site for locations where access is difficult or for sheds over 12 X 20 in size. On site construction where no power is available will incur an additional $75.00 charge for generator usage.</p>
+                        </div>
 
-                    <div className="content-block">
-                        <h2>Used Sheds and Special Deals</h2>
+                        <div className="content-block">
+                            <h2>Used Sheds and Special Deals</h2>
 
-                        <p>We usually have available very inexpensive storage buildings which are either slightly used or are older inventory. These are sometimes sold for less than half their normal retail value. We truly have a shed for every budget!</p>
-                    </div>
+                            <p>We usually have available very inexpensive storage buildings which are either slightly used or are older inventory. These are sometimes sold for less than half their normal retail value. We truly have a shed for every budget!</p>
+                        </div>
 
-                    <div className="content-block">
-                        <h2>Garage and Barn Pricing</h2>
+                        <div className="content-block">
+                            <h2>Garage and Barn Pricing</h2>
 
-                        <p>We offer turn key packages which include everything except any necessary grading. You can customize your garage or barn by selecting framing materials, roof styles, shingles, siding options, windows, doors, and trim colors. All garages are priced based upon material selections, size, location, and time of year. Please call for pricing.</p>
-                    </div>
+                            <p>We offer turn key packages which include everything except any necessary grading. You can customize your garage or barn by selecting framing materials, roof styles, shingles, siding options, windows, doors, and trim colors. All garages are priced based upon material selections, size, location, and time of year. Please call for pricing.</p>
+                        </div>
 
-                    <div className="content-block">
-                        <h2>Delivery</h2>
+                        <div className="content-block">
+                            <h2>Delivery</h2>
 
-                        <p>We delivery anywhere in South Carolina. Delivery is free within 50 miles of Easley, SC. However, there may be additional cost for long distances and/or difficult locations. Any permits required are not included in the above prices and are the responsibility of the customer.</p>
+                            <p>We delivery anywhere in South Carolina. Delivery is free within 50 miles of Easley, SC. However, there may be additional cost for long distances and/or difficult locations. Any permits required are not included in the above prices and are the responsibility of the customer.</p>
 
-                        <h2>(864)-565-1425</h2>
+                            <h2>(864)-565-1425</h2>
 
-                        <br />
+                            <br />
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }

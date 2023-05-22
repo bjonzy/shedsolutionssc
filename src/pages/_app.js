@@ -13,17 +13,17 @@ config.autoAddCss = false
 export default function App({ Component, pageProps }) {
   return (
     <>
-      <Head>
-        <title>Shed Solutions SC</title>
-        <meta name="description" content="Shed Solutions" />
-        <meta name="keywords" content="Sheds, Shed, Barns, Barn, Garages, Garage, Construction, On-site, Delivery, Custom, Financing" />
-      </Head>
       <style jsx global>{`
         html {
           font-family: ${inter.style.fontFamily};
         }
       `}</style>
       <div className="app-wrapper">
+        <Head>
+          <title>Shed Solutions SC</title>
+          <meta name="description" content="Shed Solutions" />
+          <meta name="keywords" content="Sheds, Shed, Barns, Barn, Garages, Garage, Construction, On-site, Delivery, Custom, Financing" />
+        </Head>
         <Navbar />
         <Component {...pageProps} />
         <Footer />

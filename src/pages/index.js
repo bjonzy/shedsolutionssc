@@ -36,7 +36,7 @@ export default function Home() {
                 <p>Shed Solutions will work with you to design and build exactly what you want. We build everything from tiny chicken coops to sheds, barns and small garages. If you can dream it, we can build it! Just pick the size, style, shingle color, windows, doors, etc. and we will get to building it.</p>
                 <h3>(864)-565-1425</h3>
                 <h1>Built On Site or FREE Delivery</h1>
-                <p>Easley, SC, 29640</p>
+                <p>607 Black Snake Rd.<br/>Easley, SC, 29640</p>
               </div>
             </div>
         </div>
@@ -76,7 +76,7 @@ export default function Home() {
           </div>
         </div>
 
-        <AnimationOnScroll {...animationConfig} className="content-block">
+        <AnimationOnScroll {...animationConfig} className="content-block media-min-height">
           <h1>Our Work</h1>
           <div className="showcase-block-wrapper">
             <Link href="/pricing">

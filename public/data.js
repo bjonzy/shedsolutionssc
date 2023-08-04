@@ -110,39 +110,39 @@ export const pricingData = {
         },
         {
             size: "12x14",
-            smartsideTotal: "4268",
-            smartside60Month: "169.14",
-            smartside48Month: "190.28",  
-            vinylTotal: "6188",
-            vinyl60Month: "245.23",
-            vinyl48Month: "275.88"
+            smartsideTotal: "4368",
+            smartside60Month: "181.05",
+            smartside48Month: "202.69",  
+            vinylTotal: "6334",
+            vinyl60Month: "258.96",
+            vinyl48Month: "290.34"
         },
         {
             size: "12x16",
-            smartsideTotal: "4495",
-            smartside60Month: "178.13",
-            smartside48Month: "200.40",  
-            vinylTotal: "6517",
-            vinyl60Month: "258.27",
-            vinyl48Month: "290.55"
+            smartsideTotal: "4695",
+            smartside60Month: "194.01",
+            smartside48Month: "217.27",  
+            vinylTotal: "6808",
+            vinyl60Month: "277.75",
+            vinyl48Month: "311.48"
         },
         {
             size: "12x20",
-            smartsideTotal: "5195",
-            smartside60Month: "205.88",
-            smartside48Month: "231.61",  
-            vinylTotal: "7532",
-            vinyl60Month: "298.49",
-            vinyl48Month: "335.80"
+            smartsideTotal: "5695",
+            smartside60Month: "233.65",
+            smartside48Month: "261.85",  
+            vinylTotal: "8258",
+            vinyl60Month: "335.21",
+            vinyl48Month: "376.12"
         },
         {
             size: "12x24",
-            smartsideTotal: "5808",
-            smartside60Month: "230.17",
-            smartside48Month: "258.94",  
-            vinylTotal: "8421",
-            vinyl60Month: "333.72",
-            vinyl48Month: "375.44"
+            smartsideTotal: "6108",
+            smartside60Month: "250.01",
+            smartside48Month: "280.27",  
+            vinylTotal: "8857",
+            vinyl60Month: "358.95",
+            vinyl48Month: "402.82"
         },
         {
             size: "14x20",
@@ -284,39 +284,39 @@ export const pricingData = {
         },
         {
             size: "12x14",
-            smartsideTotal: "5121",
-            smartside60Month: "202.95",
-            smartside48Month: "228.32",  
-            vinylTotal: "7425",
-            vinyl60Month: "294.25",
-            vinyl48Month: "331.04"
+            smartsideTotal: "5242",
+            smartside60Month: "215.69",
+            smartside48Month: "241.66",  
+            vinylTotal: "7801",
+            vinyl60Month: "309.18",
+            vinyl48Month: "346.83"
         },
         {
             size: "12x16",
-            smartsideTotal: "5394",
-            smartside60Month: "213.76",
-            smartside48Month: "240.48",  
-            vinylTotal: "7821",
-            vinyl60Month: "309.95",
-            vinyl48Month: "348.69"
+            smartsideTotal: "5634",
+            smartside60Month: "231.23",
+            smartside48Month: "259.13",  
+            vinylTotal: "8169",
+            vinyl60Month: "331.69",
+            vinyl48Month: "372.16"
         },
         {
             size: "12x20",
-            smartsideTotal: "6234",
-            smartside60Month: "247.05",
-            smartside48Month: "277.93",  
-            vinylTotal: "9039",
-            vinyl60Month: "358.21",
-            vinyl48Month: "402.99"
+            smartsideTotal: "6834",
+            smartside60Month: "278.78",
+            smartside48Month: "312.63",  
+            vinylTotal: "9909",
+            vinyl60Month: "400.64",
+            vinyl48Month: "449.73"
         },
         {
             size: "12x24",
-            smartsideTotal: "6970",
-            smartside60Month: "276.22",
-            smartside48Month: "310.75",  
-            vinylTotal: "10107",
-            vinyl60Month: "400.53",
-            vinyl48Month: "450.61"
+            smartsideTotal: "7329",
+            smartside60Month: "298.39",
+            smartside48Month: "334.71",  
+            vinylTotal: "10627",
+            vinyl60Month: "429.09",
+            vinyl48Month: "481.74"
         },
         {
             size: "14x20",

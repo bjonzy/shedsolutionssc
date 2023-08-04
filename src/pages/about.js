@@ -22,6 +22,7 @@ export default function About(props) {
                     <div className="content-block">
                         <h2>Located in Beautiful South Corolina</h2>
 
+                        <span>607 Black Snake Rd.</span>
                         <span>Easley, SC, 29640</span>
                         <span><strong>(864)-565-1425</strong></span>
 

@@ -28,7 +28,7 @@
                 }
     
                 .content-block, .content-block-with-image {
-                    height: calc(100vh - 70px);
+                    height: calc(100vh - 50px);
                 }
                 
                 .content-block, .content-block-with-image .content .text-content {
@@ -99,6 +99,10 @@
                         width: 50vw;
                         height: 50vw;
                     }
+                }
+
+                .media-min-height {
+                    min-height: 125vw;
                 }
             }
         }

@@ -20,7 +20,7 @@ export default function About(props) {
                     </div>
 
                     <div className="content-block">
-                        <h2>Located in Beautiful South Corolina</h2>
+                        <h2>Located in Beautiful South Carolina</h2>
 
                         <span>607 Black Snake Rd.</span>
                         <span>Easley, SC, 29640</span>
